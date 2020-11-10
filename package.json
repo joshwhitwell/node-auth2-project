@@ -4,7 +4,8 @@
   "description": "## Introduction",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/joshwhitwell/node-auth2-project/issues"
   },
-  "homepage": "https://github.com/joshwhitwell/node-auth2-project#readme"
+  "homepage": "https://github.com/joshwhitwell/node-auth2-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "knex": "^0.21.12",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
